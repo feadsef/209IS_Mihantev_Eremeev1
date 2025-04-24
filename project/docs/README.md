@@ -243,4 +243,6 @@ shift + alt + f
 Используется HTTPS + Json
 Для стриминга, для чатов и соц сетей
 Используется веб сокет + message par
-Для тестирования API используется postman и
+Для тестирования API используется postman 
+
+justify-content: space-between; (в header)
