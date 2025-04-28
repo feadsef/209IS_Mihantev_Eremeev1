@@ -112,3 +112,12 @@
         height: 35px;
     }
 }
+
+.catalog {
+    padding: 40px 60px;
+}
+
+.catalog-text {
+    display: flex;
+    
+}

@@ -246,3 +246,8 @@ shift + alt + f
 Для тестирования API используется postman 
 
 justify-content: space-between; (в header)
+
+слайдеры
+Own Carousel 2
+Boot strap carousel
+Slick splider
