@@ -251,3 +251,40 @@ justify-content: space-between; (в header)
 Own Carousel 2
 Boot strap carousel
 Slick splider
+
+Слайдер
+
+<section class="catalog">
+      <div class="catalog-text">
+        <h1>КАТАЛОГ</h1>
+        <p>qweqwe</p>
+      </div>
+
+      <div class="your-class">
+        <div>your content</div>
+        <div>your content</div>
+        <div>your content</div>
+        <div>your content</div>
+        <div>your content</div>
+        <div>your content</div>
+        <div>your content</div>
+      </div>
+
+    </section>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="../slick-1.8.1/slick/slick.min.js"></script>		
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('.your-class').slick({
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          dots: true,
+          arrows: true,
+          autoplay: true,
+          autoplaySpeed: 2000,
+        });
+      });
+    </script>
