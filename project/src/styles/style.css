@@ -118,11 +118,6 @@
     padding: 40px 60px;
 }
 
-.catalog-text {
-    display: flex;
-
-}
-
 .your-class {
     margin-top: 200px;
     margin-left: 30px;
@@ -154,6 +149,7 @@
 }
 
 .catalog-text {
+display: flex;
 gap: 20px;
     h1  {
         color: rgb(63, 151, 110);
@@ -251,4 +247,60 @@ gap: 20px;
     height: 30px;
     cursor: pointer;
     transition: transform 0.2s;
+}
+
+.onas-text {
+        h1  {
+            display: flex;
+            flex-direction: column;
+            align-items: first baseline;
+            color: rgb(63, 151, 110);
+            margin-left: 80px;
+            margin-top: 10px;
+            font-size: 75px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            letter-spacing: 0px;
+            transform: scaleY(1.1);
+            text-align: center;
+        }
+
+        
+}
+
+.o-nas {
+    padding: 40px 60px;
+    background-image: url(../../assets/images/background4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: color;
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
+.onas-text1 {
+    margin-left: 80px;
+    margin-top: 100px;
+    background-color: white;
+    padding: 35px;
+    width: 500px;
+    text-align: left;
+    line-height: 25px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+
+    p {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+
+        color: rgb(0, 0, 0);
+        font-size: 15px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+.onas-photo {
+    display: flex;
+    flex-direction: column;
+    align-items: end ;
 }
