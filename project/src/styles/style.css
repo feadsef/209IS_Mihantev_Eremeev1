@@ -301,6 +301,8 @@ gap: 20px;
 
 .onas-photo {
     display: flex;
-    flex-direction: column;
-    align-items: end ;
+    justify-content: end;
+    padding: 60px;
+    margin-right: 80px;
+    margin-bottom: 25px;
 }
