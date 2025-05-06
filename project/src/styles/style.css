@@ -40,7 +40,14 @@
     }    
 
     p {
-
+        text-align: center;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 15px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        span {
+            color: rgb(52, 116, 86);
+        }
     }
 }
 
@@ -94,7 +101,6 @@
     gap: 10px;
     margin-right: 80px;
     margin-bottom: 25px;
-
     img {
         width: 50px;
         height: 50px;
@@ -278,31 +284,85 @@ gap: 20px;
 }
 
 .onas-text1 {
-    margin-left: 80px;
-    margin-top: 100px;
+    margin-left: 130px;
+    margin-top: 110px;
+    margin-bottom: 120px;
     background-color: white;
     padding: 35px;
+    height: 490px;
     width: 500px;
     text-align: left;
     line-height: 25px;
-    word-spacing: 2px;
     letter-spacing: 1px;
+    align-content: center;
+    ul {
+        color: rgb(63, 151, 110);
+        font-size: 20px;
+    }
 
     p {
-        display: flex;
+        font-weight: 600;
         flex-direction: column;
         margin-left: 10px;
 
         color: rgb(0, 0, 0);
-        font-size: 15px;
+        font-size: 18px;
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        span {
+            color: rgb(63, 151, 110);
+        }
+    }
+
+    .onas-logo {
+        margin-top: -40px;
+        position: absolute;
+        display: flex;
+        height: 100px;
+        width: 475px;
+        align-items: flex-start;
+        display: flex;
+        justify-content: flex-end;
     }
 }
 
 .onas-photo {
+    position: absolute;
     display: flex;
-    justify-content: end;
-    padding: 60px;
-    margin-right: 80px;
-    margin-bottom: 25px;
+    justify-content: center;
+    left: 1130px;
+    top: 2120px;
+    height: 530px;
+    width: 530px;
+    
+    .photo1 {
+        object-fit: cover;
+        position: absolute;
+        margin-top: 320px;
+        margin-right: 320px;
+        width: 290px;
+        height: 290px;
+        border-radius: 25px;
+        border-bottom-left-radius: 130px;
+    }
+
+    .photo2 {
+        object-fit: cover;
+        position: absolute;
+        margin-right: 320px;
+        width: 290px;
+        height: 290px;
+        border-radius: 25px;
+    }
+    
+    .photo3 {
+        object-fit: cover;
+        position: absolute;
+        width: 290px;
+        height: 610px;
+        margin-left: 320px;
+        border-radius: 25px;
+        border-top-right-radius: 130px;
+    }
 }
+
